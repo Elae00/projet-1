@@ -1,4 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, bonjour");
+int x;
+do
+{
+    Console.WriteLine("donner un entier");
+     x = Convert.ToInt32(Console.ReadLine());
 
+} while (x > 0)
