@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 int x;
+int y;
 do
 {
     Console.WriteLine("donner un entier");
